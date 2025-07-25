@@ -1,12 +1,15 @@
 {
   "name": "3dfolio",
+  "homepage": "https://Piyush2Kaushal.github.io/My-PortFolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -15,7 +18,7 @@
     "@gsap/react": "^2.1.2",
     "@heroicons/react": "^2.2.0",
     "@mui/material": "^7.2.0",
-    "@react-three/drei": "^9.56.24",
+    "@react-three/drei": "^9.56.4",
     "@react-three/fiber": "^8.11.1",
     "email-js": "^2.0.3",
     "framer-motion": "^9.0.7",
@@ -28,7 +31,7 @@
     "react-router-dom": "^6.8.1",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.172.0",
+    "three": "^0.152.2",
     "vanilla-tilt": "^1.8.1"
   },
   "devDependencies": {
